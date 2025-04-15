@@ -1,0 +1,38 @@
+{
+    "name": "UIN Antasari Survey System",
+    "short_name": "UIN Survey",
+    "description": "Sistem Survey UIN Antasari",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1976d2",
+    "icons": [
+        {
+            "src": "/images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "orientation": "portrait",
+    "categories": ["education", "productivity"],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Layanan",
+            "url": "/service-links.html",
+            "description": "Lihat daftar layanan"
+        },
+        {
+            "name": "Survey Baru",
+            "url": "/survey.html",
+            "description": "Mulai survey baru"
+        }
+    ]
+} 
